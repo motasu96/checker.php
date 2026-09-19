@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    {
+      "source": "/pay_pal_email_checker.php",
+      "destination": "/pay_pal_email_checker.php"
+    }
+  ],
+  "builds": [
+    {
+      "src": "pay_pal_email_checker.php",
+      "use": "@vercel/php"  // هذا السطر هو المفتاح! يخبر Vercel بتشغيل كود PHP
+    }
+  ]
+}
